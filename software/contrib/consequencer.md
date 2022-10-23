@@ -39,11 +39,13 @@ Normal steps are shown with a `^` character, whereas steps with a probability ar
 - knob_1: Adjust randomness
 - knob_2: Select pre-loaded gate pattern
 
-- button_1: Short Press: Toggle randomized pattern on output 3 on / off. Long Press: Play previous stepped CV sequence
+- button_1: 
+  -  Short Press  (<300ms)  : Play previous stepped CV sequence Toggle randomized pattern on output 3 on / off. 
+  -  Medium Press (>300ms)  : Toggle randomized pattern on output 3 on/off  [Filled rectangle]
+  -  Long Press   (>3000ms) : Toggle clock output in sync in case of latency [Outlined rectangle]
 - button_2:
-  - Short Press  (<300ms)  : Generate a new random cv pattern for outputs 4 - 6.
-  - Medium Press (>300ms)  : Cycle through analogue input modes
-  - Long Press   (>3000ms) : Toggle option to send clocks from output 4
+  - Short Press  (<300ms)  : Play next stepped CV sequence
+  - Medium Press (>300ms)  : Cycle through analogue input modes 1,2 and 3
 
 - output_1: gate 1 e.g Kick Drum
 - output_2: gate 2 e.g Snare Drum
